@@ -8,10 +8,10 @@ Gem::Specification.new do |spec|
   spec.version       = Securepass::VERSION
   spec.authors       = ["Paolo Perego"]
   spec.email         = ["thesp0nge@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
-  spec.license       = "MIT"
+  spec.description   = %q{This is the unofficial API rubygem to secure-pass.net online secure authentication and authorization platform.}
+  spec.summary       = %q{This is the unofficial API rubygem to secure-pass.net online secure authentication and authorization platform.}
+  spec.homepage      = "http://www.secure-pass.net"
+  spec.license       = "GPLv2"
 
   spec.files         = `git ls-files`.split($/)
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
